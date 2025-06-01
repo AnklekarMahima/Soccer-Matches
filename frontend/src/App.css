@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9fb;
+  color: #222;
+}
+
+.App {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.timezone-toggle {
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.timezone-toggle:hover {
+  background-color: #1565c0;
+}
+
+.match-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.match-card {
+  background-color: #ffffff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-5px);
+}
+
+.match-card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.match-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
